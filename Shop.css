@@ -1,0 +1,159 @@
+
+wrapper{
+  width: 20px;
+  margin: auto;
+}
+
+header{
+  background: linear-gradient(rgba(228, 217, 217, 0.1),rgba(194, 176, 176, 0.1)), url(Image/im8.jpg);
+  height: 98vh;
+  background-size:auto;
+  background-position: center top;
+  position: relative;
+
+  -webkit-background-size: cover;
+}
+
+.logo img{
+  width: 120px;
+  float: left;
+  height: auto;
+}
+.shop{
+  position: absolute;
+  height: 300px;
+  width: 600px;
+  margin: 20% 30%;
+  text-align: center;
+}
+
+.shop h1{
+  text-align: center;
+  color: rgb(24, 18, 20);
+  text-transform: uppercase;
+  font-size: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 20px;
+}
+.shop a{
+  border: 1px solid;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  color: rgb(218, 79, 102);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 20px;
+}
+
+.shop a:hover{
+  background: rgb(224, 34, 65);
+  color: rgb(241, 237, 237);
+}
+
+
+.h1{
+  float: right;
+  height: 300px;
+  width: 600px;
+  text-align: right;
+  color: rgb(14, 13, 13);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px
+}
+.col{
+  box-shadow: 0 4px 8px 0 rgba(10, 10, 10, 0.2);
+  max-width: 300px;
+  margin: 0 20px;
+  margin-right: 20px;
+  text-align: center;
+  font-family: Georgia;
+  display: inline-block;
+  position: relative;
+  object-fit: cover;
+  display: inline-block;
+}
+
+.col img{
+  width: 39vh;
+  height: 40vh;
+  object-fit: cover;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  object-fit: cover;
+ 
+}
+
+.price{
+  color: grey;
+  font-size: 22px;
+  margin: 12px;
+}
+
+.col button{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: rgb(184, 71, 71);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+ 
+}
+ 
+.col button:hover{
+  opacity: 0.7;
+}
+
+.md{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 60px;
+  color: brown;
+}
+
+.h00{
+  text-align: left;
+  float: left;
+  font-size: 40px;
+  color: violet
+  margin-right: auto;
+}
+
+.navbar{
+  background-color: rgb(85, 75, 75);
+  width: 100%;
+  overflow: hidden;
+  bottom: 0;
+  position:relative;
+  text-align: center;
+}
+
+.li{
+  margin: 0 10px;
+  display: inline-block;
+  line-height: 100px;
+}
+
+.a{
+  color: rgb(233, 220, 225);
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 30px;
+}
+
+a:hover{
+  background-color: rgb(218, 190, 190);
+  color: rgb(167, 26, 50);
+}
+
+.copy{
+  font-size: 18px;
+  font-family:'Courier New', Courier, monospace
+  color: white;
+}

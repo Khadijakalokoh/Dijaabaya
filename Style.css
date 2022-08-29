@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+wrapper{
+  width: 30px;
+  margin: auto;
+}
+header{
+  background: linear-gradient(rgba(228, 217, 217, 0.1),rgba(194, 176, 176, 0.1)), url(Image/im6.jpg);
+  height: 98vh;
+  background-size:auto;
+  background-position: center top;
+  position:relative;
+  -webkit-background-size: cover;
+
+  
+}
+  
+
+.nav-area{
+float: right;
+list-style: none;
+margin-top: 30px;
+}
+.nav-area li{
+  display: inline-block;
+}
+.nav-area li a{
+  color: rgb(209, 46, 81);
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: Georgia;
+  font-size: 40px;
+}
+.nav-area li a:hover{
+  background: rgb(151, 21, 108);
+  color: rgb(245, 18, 18);
+}
+.logo img{
+  width: 120px;
+  float: left;
+  height: auto;
+}
+.welcom-text{
+  position: absolute;
+  height: 300px;
+  width: 600px;
+  margin: 20% 30%;
+  text-align: center;
+}
+.welcom-text h1{
+  text-align: center;
+  color: rgb(245, 240, 240);
+  text-transform: uppercase;
+  font-size: 60px;
+  
+}
+.welcom-text a{
+  border: 1px solid;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 20px;
+  display: inline-block;
+  color: rgb(240, 231, 231);
+  border-radius: 20px;
+}
+.welcom-text a:hover{
+  color: rgb(145, 31, 31);
+  background: rgb(204, 137, 137);
+}
+h1{
+  font-size: 80px;
+  color: brown;
+  text-align: center;
+}
+
+.img3{
+width: 66vh;
+height: 70vh;
+object-fit: cover;
+margin: 12px;
+
+}
+.h00{
+  text-align: left;
+  float: left;
+  
+  font-size: 40px;
+  color: violet
+  margin-right: auto;
+}
+.shp a{
+  border: 1px solid;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  color: rgb(218, 79, 102);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 20px;
+ 
+}
+.shp a:hover{
+  color: rgb(145, 31, 31);
+  background: rgb(204, 137, 137);
+}
+
+.video{
+  background: linear-gradient(rgba(228, 217, 217, 0.1),rgba(194, 176, 176, 0.1)), url(Image/pexels-mikhail-nilov-8296222.mp4);
+  height: 98vh;
+  background-size:cover;
+  background-position: center top;
+  position: relative;
+  object-fit: cover;
+  margin-bottom: 10px;
+  -webkit-background-size: cover;
+}
+
+.navbar{
+  background-color: rgb(85, 75, 75);
+  width: 100%;
+  overflow: hidden;
+  bottom: 0;
+  position:relative;
+  text-align: center;
+
+}
+
+.li{
+  margin: 0 10px;
+  display: inline-block;
+  line-height: 100px;
+}
+
+.a{
+  color: rgb(233, 220, 225);
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 30px;
+}
+
+a:hover{
+  background-color: rgb(218, 190, 190);
+  color: rgb(167, 26, 50);
+}
+
+.copy{
+  font-size: 18px;
+  font-family:'Courier New', Courier, monospace
+  color: white;
+}
